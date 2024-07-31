@@ -1,0 +1,48 @@
+#reel-wrapper {
+    width: 100%;
+}
+
+#reel-container {
+    min-height: 100vh;
+    background: #0D0E13;
+    width: 100%;
+    color: #E4E0DB;
+    position: relative;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+#reel-container .video {
+    opacity: .3;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(.25);
+    position: absolute;
+    z-index: -1;
+}
+
+#reel-container h2:first-child {
+    margin-right: 1.2vw;
+    transform: translateX(-18vw);
+}
+
+#reel-container h2:last-child {
+    margin-left: 1.2vw;
+    transform: translateX(18vw);
+}
+
+#reel-container p {
+    font-size: .97222vw;
+}
+
+#reel-bottom-p {
+    text-align: center;
+    position: absolute;
+    bottom: 3vw;
+}
+
+#reel-top-p {
+    position: absolute;
+    top: 3vw;
+}
